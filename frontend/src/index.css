@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force the background to black */
+body {
+  @apply bg-black text-white;
+}
